@@ -1,5 +1,5 @@
 /*
- * Ercícios   Apostila Caelum .
+ * Exercícios    Apostila Caelum .
  */
 package apostilacaelum;
 
