@@ -13,11 +13,11 @@ public class ApostilaCaelum {
      * metodo pricipal
      */
     public static void main(String[] args) {
-        // declarando criando variável 
-        int idade;
+        // declarando criando variável e atribundo o valor 15
+        int idade =15;
         
-        //atribuindo o valor 15 a variável idade
-        idade=15;
+        
+        
 
         // primeiro programa
         //System.out.println("Olá mundo \nPrimeiro programa");
