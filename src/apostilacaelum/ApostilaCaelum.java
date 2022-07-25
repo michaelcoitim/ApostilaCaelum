@@ -4,7 +4,7 @@
 package apostilacaelum;
 
 /**
- * @version v 1.0 01/2022
+ * @version v 1.1 01/2022
  * @author Michael Coitim
  */
 public class ApostilaCaelum {
@@ -16,6 +16,7 @@ public class ApostilaCaelum {
 
         // primeiro programa
         System.out.println("Olá mundo");
+        System.out.println("Primeiro programa");
         
     }
     
