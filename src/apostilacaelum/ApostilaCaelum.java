@@ -18,6 +18,11 @@ public class ApostilaCaelum {
         int quatro = 2 + 2;
         int tres = 5 - 2;
         int um = 5 % 2;
+        double	pi =3.14;
+        double	x = 5 *	10;
+        boolean verdade = true;
+        boolean menorIdade = idade < 18;
+        char letra ='a';
         
         
 
@@ -26,6 +31,11 @@ public class ApostilaCaelum {
         //System.out.println("Primeiro programa");
         // exibindo o valor da variável idade
         System.out.println(um);
+        System.out.println(letra);
+        System.out.println(x);
+        System.out.println(letra);
+        
+
         
     }
     
