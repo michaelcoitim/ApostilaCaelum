@@ -39,6 +39,15 @@ public class ApostilaCaelum {
         System.out.println("valor de i="+i);
         System.out.println("valor de j="+j);
         
+        GastoTrimeste t1 = new GastoTrimeste();
+        
+        t1.mesUm =15000;
+        t1.mesDois=23000;
+        t1.mesTres=17000;
+        
+        System.out.println("a Soma é = "+t1.SomaTotal(t1.mesUm, t1.mesDois, t1.mesTres));
+        System.out.println("a Soma é = "+t1.Media(t1.mesUm, t1.mesDois, t1.mesTres));
+        
 
         
     }
