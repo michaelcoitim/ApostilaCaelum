@@ -23,7 +23,9 @@ public class ApostilaCaelum {
         boolean verdade = true;
         boolean menorIdade = idade < 18;
         char letra ='a';
-        
+        int i= 5;
+        int j = i;
+        i = i + 1;
         
 
         // primeiro programa
@@ -34,6 +36,8 @@ public class ApostilaCaelum {
         System.out.println(letra);
         System.out.println(x);
         System.out.println(letra);
+        System.out.println("valor de i="+i);
+        System.out.println("valor de j="+j);
         
 
         
