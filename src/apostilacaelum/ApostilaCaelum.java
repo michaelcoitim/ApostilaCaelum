@@ -15,8 +15,8 @@ public class ApostilaCaelum {
     public static void main(String[] args) {
 
         // primeiro programa
-        System.out.println("Olá mundo");
-        System.out.println("Primeiro programa");
+        System.out.println("Olá mundo \nPrimeiro programa");
+        //System.out.println("Primeiro programa");
         
     }
     
