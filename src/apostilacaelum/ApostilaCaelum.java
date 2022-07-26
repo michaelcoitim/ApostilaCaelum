@@ -26,7 +26,9 @@ public class ApostilaCaelum {
         int i= 5;
         int j = i;
         i = i + 1;
-        
+        double cast1 =5.12;
+        int i2 = (int) cast1;
+        float x3 = 0.1f ;
 
         // primeiro programa
         //System.out.println("Olá mundo \nPrimeiro programa");
@@ -47,6 +49,10 @@ public class ApostilaCaelum {
         
         System.out.println("a Soma é = "+t1.SomaTotal(t1.mesUm, t1.mesDois, t1.mesTres));
         System.out.println("a Soma é = "+t1.Media(t1.mesUm, t1.mesDois, t1.mesTres));
+        
+        //molde(casted) gaurda a parte inteira(geralemte feito para não prder informação) de uma variavel 
+        // outra maneira de realizar o casting, pois somente o doble é considerado ponto flutuante
+        System.out.println(i2+"\n"+x3);
         
 
         
