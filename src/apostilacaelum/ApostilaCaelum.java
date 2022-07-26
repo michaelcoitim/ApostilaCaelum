@@ -52,8 +52,16 @@ public class ApostilaCaelum {
         
         //molde(casted) gaurda a parte inteira(geralemte feito para não prder informação) de uma variavel 
         // outra maneira de realizar o casting, pois somente o doble é considerado ponto flutuante
+        // o CASTING é a converção de um valor em outro tipo
         System.out.println(i2+"\n"+x3);
         
+        
+        //fluxo de controle if e else 
+        if(idade <=18){
+            System.out.println("Não pode entrar");
+        } else{
+            System.err.println("pode entar");
+        }
 
         
     }
