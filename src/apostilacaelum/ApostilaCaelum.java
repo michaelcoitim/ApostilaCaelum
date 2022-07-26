@@ -14,7 +14,7 @@ public class ApostilaCaelum {
      */
     public static void main(String[] args) {
         // declarando criando variável e atribundo o valor 15
-        int idade =15;
+        int idade =25;
         int quatro = 2 + 2;
         int tres = 5 - 2;
         int um = 5 % 2;
@@ -60,7 +60,15 @@ public class ApostilaCaelum {
         if(idade <=18){
             System.out.println("Não pode entrar");
         } else{
-            System.err.println("pode entar");
+            System.out.println("pode entar");
+        }
+        
+        //fluxo de controle WHILE
+        int i3 = 0;
+        
+        while(i3 < 10 ){
+            System.out.println(i3);
+            i3++;
         }
 
         
