@@ -70,6 +70,13 @@ public class ApostilaCaelum {
             System.out.println(i3);
             i3++;
         }
+        
+        //fluxo de controle for
+        for(int ii=0;ii <5; ii++){
+            System.err.println("ola");// fica em vermelho
+            //System.out.println(ii);
+        }
+        
 
         
     }
