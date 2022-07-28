@@ -2,8 +2,12 @@
  *exemplo de labeled loops
  * para saber mais no link:
  * http://www.java2s.com/Code/Java/Language-Basics/Javalabeledforloop.htm  
- * não sei bem o onde aplicamos isso, até onde entendi é mais para mostrar escopo de variaveis e 
- * alinhamento de loops, pontos de destaqueé o inner e o outer ( que devo pesquisar mais)
+ * Apos pesquisar um pouco, cheguei no seguinte intendimento:
+ * Esses outer e inner são blocos, e os labeled loops é uma forma de parar ou continuar
+ * utilizando o break e o continue, explicação no link:
+ * https://www.youtube.com/watch?v=8SMB_yRXkec
+ * E
+ * https://www.youtube.com/watch?v=JlRgBWWYOSE
  */
 package apostilacaelum;
 
