@@ -55,6 +55,9 @@ public class ApostilaCaelum {
         // o CASTING é a converção de um valor em outro tipo
         System.out.println(i2+"\n"+x3);
         
+       //System.out.println(" dividindo i2 por 0 = "+i2/0); // ocorre erro
+        System.out.println(" dividindo i2 por 0 = "+i2/0.0); // diz que vai até o inifito
+        
         /*
         //fluxo de controle if e else 
         if(idade <=18){
@@ -87,8 +90,8 @@ public class ApostilaCaelum {
         */
         
         
-        ExemploLabeledLoops ex1 = new ExemploLabeledLoops();
-        ex1.Loops();
+      //  ExemploLabeledLoops ex1 = new ExemploLabeledLoops();
+      // ex1.Loops();
 
         
     }
