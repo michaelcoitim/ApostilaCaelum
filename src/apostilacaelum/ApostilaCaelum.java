@@ -75,7 +75,7 @@ public class ApostilaCaelum {
         /*for(int ii=0;ii <5; ii++){
             System.err.println("ola");// fica em vermelho
             //System.out.println(ii);
-        }*/
+        }
         
         for(int k = 0 ;k < 100;k++){
             if(k > 50 && k<60){
@@ -84,7 +84,11 @@ public class ApostilaCaelum {
             }
             System.out.println(k);
         }
+        */
         
+        
+        ExemploLabeledLoops ex1 = new ExemploLabeledLoops();
+        ex1.Loops();
 
         
     }
