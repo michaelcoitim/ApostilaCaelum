@@ -1,5 +1,9 @@
 /*
  *exemplo de labeled loops
+ * para saber mais no link:
+ * http://www.java2s.com/Code/Java/Language-Basics/Javalabeledforloop.htm  
+ * não sei bem o onde aplicamos isso, até onde entendi é mais para mostrar escopo de variaveis e 
+ * alinhamento de loops, pontos de destaqueé o inner e o outer ( que devo pesquisar mais)
  */
 package apostilacaelum;
 
@@ -11,9 +15,9 @@ public class ExemploLabeledLoops {
     
     public void Loops(){
         int i = 0;
-        outer: // Can't have statements here
-        for (; true;) { // infinite loop
-            inner: // Can't have statements here
+        outer: // Can't have statements here (não pode argumentos aqui) 
+        for (; true;) { // infinite loop loop infinito 
+            inner: // Can't have statements here 
             for (; i < 10; i++) {
                 System.out.println("i = " + i);
                 if (i == 2) {
