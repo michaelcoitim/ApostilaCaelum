@@ -55,7 +55,7 @@ public class ApostilaCaelum {
         // o CASTING é a converção de um valor em outro tipo
         System.out.println(i2+"\n"+x3);
         
-        
+        /*
         //fluxo de controle if e else 
         if(idade <=18){
             System.out.println("Não pode entrar");
@@ -69,12 +69,20 @@ public class ApostilaCaelum {
         while(i3 < 10 ){
             System.out.println(i3);
             i3++;
-        }
+        }*/
         
         //fluxo de controle for
-        for(int ii=0;ii <5; ii++){
+        /*for(int ii=0;ii <5; ii++){
             System.err.println("ola");// fica em vermelho
             //System.out.println(ii);
+        }*/
+        
+        for(int k = 0 ;k < 100;k++){
+            if(k > 50 && k<60){
+                continue;
+                //break;
+            }
+            System.out.println(k);
         }
         
 
