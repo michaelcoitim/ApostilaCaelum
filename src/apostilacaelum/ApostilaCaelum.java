@@ -92,6 +92,10 @@ public class ApostilaCaelum {
         
       //  ExemploLabeledLoops ex1 = new ExemploLabeledLoops();
       // ex1.Loops();
+      
+      Exercicios ex2 = new Exercicios();
+      ex2.ImprimeNumeros(150, 300);
+              
 
         
     }
