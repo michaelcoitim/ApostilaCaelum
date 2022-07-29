@@ -94,7 +94,8 @@ public class ApostilaCaelum {
       // ex1.Loops();
       
       Exercicios ex2 = new Exercicios();
-      ex2.ImprimeNumeros(150, 300);
+     // ex2.ImprimeNumeros(150, 300);
+      ex2.ImprimeSoma(1, 1000);
               
 
         

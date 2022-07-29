@@ -17,4 +17,12 @@ public class Exercicios {
         
     }
     
+    public void ImprimeSoma(int a, int b){
+        int soma=0;
+        for(int i = a; i <=b;i++){
+            soma= soma +i;
+        }
+        System.out.println(soma);
+    }
+    
 }
