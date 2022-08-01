@@ -100,7 +100,9 @@ public class ApostilaCaelum {
           
         
         // chamdo Fibonacci
-        for(int n=0; n<10; n++){
+
+        
+        for(int n=0; ex2.Fibonacci(n) <=150; n++){
             System.out.print("("+n+"):" + ex2.Fibonacci(n)+ "\n");
         }
           
