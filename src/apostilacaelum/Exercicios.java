@@ -28,9 +28,10 @@ public class Exercicios {
     //os fatoriais de 1 a 10.
 
     public void Fatorial(){
-      int fat = 1; 
+        // apartir do fatorial 20! ocorre erro pois não cabe no int 
+      long fat = 1; 
   
-      for(int n= 1; n<=10;n++){
+      for(int n= 1; n<=20;n++){
           fat= fat*n;
           System.out.print("O Fatorial de "+n+"!= ");
           
@@ -45,5 +46,9 @@ public class Exercicios {
           
       }
     }
+    
+    
+    
+    
     
 }
