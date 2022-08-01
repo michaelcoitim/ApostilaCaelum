@@ -97,7 +97,12 @@ public class ApostilaCaelum {
         //ex2.ImprimeNumeros(150, 300);
         //ex2.ImprimeSoma(1, 1000);
         //ex2.Fatorial();
-          ex2.Fibonacci();
+          
+        
+        // chamdo Fibonacci
+        for(int n=0; n<10; n++){
+            System.out.print("("+n+"):" + ex2.Fibonacci(n)+ "\n");
+        }
           
 
         

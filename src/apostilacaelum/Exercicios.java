@@ -47,20 +47,15 @@ public class Exercicios {
       }
     }
     
-    //Fibonacci
-    public void Fibonacci(){
-        int fib =0;
-         
-        for(int i = 0; i < 10 ; i++){
-            if(i<2){
-              System.out.println(fib);
-              fib++;
-            }else{
-               fib=(i-1) + (i-2);
-               System.out.println(fib);
-
-            }
+    //Fibonacci (tive que pesquisar o algoritimo )
+    // achei o modo 
+    public long Fibonacci(int fib){
+        if( fib <2){
+            return fib;
+        }else{
+            return Fibonacci(fib-1) + Fibonacci(fib-2);
         }
+       
         
     }
         
