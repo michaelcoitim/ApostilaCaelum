@@ -25,4 +25,21 @@ public class Exercicios {
         System.out.println(soma);
     }
     
+    //os fatoriais de 1 a 10.
+
+    public void Fatorial(){
+      int fat = 1; 
+  
+      for(int n= 1; n<=10;n++){
+          fat= fat*n;
+          System.out.print("O Fatorial de "+n+"!= ");
+          
+            for(int j=n; j> 0;j--){
+                System.out.print(j+" X ");
+      }
+        System.out.println("= "+fat);
+          
+      }
+    }
+    
 }
