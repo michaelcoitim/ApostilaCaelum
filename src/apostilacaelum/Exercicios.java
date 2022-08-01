@@ -35,9 +35,13 @@ public class Exercicios {
           System.out.print("O Fatorial de "+n+"!= ");
           
             for(int j=n; j> 0;j--){
-                System.out.print(j+" X ");
+                if(j!=1){
+                    System.out.print(j+" X ");
+                }else{
+                     System.out.print(j);
+                }
       }
-        System.out.println("= "+fat);
+        System.out.println(" = "+fat);
           
       }
     }
