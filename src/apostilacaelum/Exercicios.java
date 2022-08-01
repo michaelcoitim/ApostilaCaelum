@@ -47,8 +47,24 @@ public class Exercicios {
       }
     }
     
-    
-    
-    
-    
+    //Fibonacci
+    public void Fibonacci(){
+        int fib =0;
+         
+        for(int i = 0; i < 10 ; i++){
+            if(i<2){
+              System.out.println(fib);
+              fib++;
+            }else{
+               fib=(i-1) + (i-2);
+               System.out.println(fib);
+
+            }
+        }
+        
+    }
+        
 }
+    
+    
+
