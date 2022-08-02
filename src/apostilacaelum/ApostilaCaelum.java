@@ -99,14 +99,15 @@ public class ApostilaCaelum {
         //ex2.Fatorial();
           
         
-        // chamdo Fibonacci
+        // chamando  Fibonacci
 
         
-        for(int n=0; ex2.Fibonacci(n) <=150; n++){
+        /*for(int n=0; ex2.Fibonacci(n) <=150; n++){
             System.out.print("("+n+"):" + ex2.Fibonacci(n)+ "\n");
-        }
+        }*/
           
-
+        //chamando regresiva par impar  
+        ex2.RegraIparPar(14);
         
     }
     

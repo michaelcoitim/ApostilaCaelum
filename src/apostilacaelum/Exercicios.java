@@ -58,7 +58,27 @@ public class Exercicios {
        
         
     }
+    
+    //exe 7 3.13 regresiva impar par 
+    public void RegraIparPar(int x){
+        int i = x;
         
+            while(i >=0){
+                if(i==1){
+                    break;
+                }
+                if(i%2==0){
+                //par
+                i = i/2 ;
+                System.out.print(i+" -> ");
+                }else{
+                //impar 
+                i = 3 * i +1;
+                System.out.print(i+" -> ");
+                }
+            }
+        
+    }
 }
     
     
