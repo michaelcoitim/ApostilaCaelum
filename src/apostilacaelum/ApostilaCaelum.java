@@ -99,6 +99,8 @@ public class ApostilaCaelum {
         //ex2.Fatorial();
           
         
+       
+        
         // chamando  Fibonacci
 
         
@@ -107,7 +109,10 @@ public class ApostilaCaelum {
         }*/
           
         //chamando regresiva par impar  
-        ex2.RegraIparPar(14);
+        //ex2.RegraIparPar(14);
+        
+         ex2.ImprimePiramide(5);
+        
         
     }
     

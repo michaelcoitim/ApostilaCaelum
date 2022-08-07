@@ -79,6 +79,20 @@ public class Exercicios {
             }
         
     }
+    
+    public void ImprimePiramide(int n){
+        int linhas=n;
+        for(int i = 1; i < linhas; i++){
+            for(int j = 1; j <= i ; j++){
+                System.out.print(i*j+" ");
+            }
+            System.out.println("");
+         
+          
+        } 
+       
+
+    }
 }
     
     
