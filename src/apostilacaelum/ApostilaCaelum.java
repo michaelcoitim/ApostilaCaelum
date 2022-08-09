@@ -111,7 +111,7 @@ public class ApostilaCaelum {
         //chamando regresiva par impar  
         //ex2.RegraIparPar(14);
         
-         ex2.ImprimePiramide(5);
+         ex2.ImprimePiramide(6);
         
         
     }
