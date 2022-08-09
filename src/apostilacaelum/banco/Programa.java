@@ -19,10 +19,14 @@ public class Programa {
         minhaConta.saldo =1000.0;
         
         //utilizando o mentodo sacar  
-        minhaConta.saca(200);
+        if(minhaConta.saca(2000)){
+            System.out.println("Saque realizado com sucesso");
+        } else{
+            System.err.println("Erro ao Sacar");
+        }
         
         // usando o metodo depositar 
-        minhaConta.depositar(500);
+       // minhaConta.depositar(500);
         
         System.out.println("Saldo atual = "+minhaConta.saldo+" R$"); 
         

@@ -16,7 +16,7 @@ public class Conta {
     double salario;
     
     boolean saca(double quantidade){
-        if(this.saldo > quantidade){
+        if(this.saldo < quantidade){
             return false;
         }else{
             this.saldo = this.saldo - quantidade;
