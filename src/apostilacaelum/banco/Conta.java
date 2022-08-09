@@ -15,9 +15,13 @@ public class Conta {
     double saldo;
     double salario;
     
-    void saca(double quantidade){
-        double novoSaldo= this.saldo - quantidade;
-        this.saldo=novoSaldo;
+    boolean saca(double quantidade){
+        if(this.saldo > quantidade){
+            return false;
+        }else{
+            this.saldo = this.saldo - quantidade;
+            return true;
+        }
     }
     
     void depositar(double quantidade){
